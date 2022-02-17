@@ -46,11 +46,12 @@ p{
      color: #00abae;
  }
 
- #about img{
-     border-radius: 40%;
-     width: 120px;
-     margin-bottom: 10px;
- }
+ #about img {
+  border-radius: 50%;
+  width: 120px;
+  height: 200px;
+  margin-bottom: 10px;
+}
 
  #about .name{
      font-size: 19px;
@@ -99,4 +100,9 @@ Project
 
 #project .card img{
     width: 100%;
+}
+video.project-video {
+  width: 100%;
+  max-height: 270px;
+  background-color: black;
 }
